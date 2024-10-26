@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <div id="main-container">
+        <div id="add-container">
+            <h2>Adicione suas tarefas</h2>
+            <form action="">
+                <input type="text" name="task" id="task" placeholder="O que voçê tem para fazer">
+                <button type="submit" id="add">
+                    <i class="material-icons">add</i>                </button>
+            </form>
+        </div>
+        <div id="task-container">
+            <h2>Veja suas tarefas: </h2>
+            <!-- TEMPLATE-->
+            <div class="task hide">
+                <i class="material-icons check" >check</i>
+                <span class="task-title">Título da tarefa</span>
+                <i class="material-icons trash ">delete</i>
+            </div>
+            <!-- FIM DO TEMPLATE-->
+            <p id="empty-tasks">Não há tarefas cadastradas</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
