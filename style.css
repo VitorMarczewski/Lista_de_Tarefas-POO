@@ -117,11 +117,8 @@ h2{
 }
 
 /*mobile*/
-
-@media (max-width:480px) {
-    body{
-        padding: 20px;
-    }
+@media (orientation: portrait){
+   
     h2{
         text-align: center;
     }
