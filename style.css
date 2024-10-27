@@ -129,6 +129,6 @@ h2{
     }
 
     .task .trash{
-        display: none;
+        display:block;
     }
 }
